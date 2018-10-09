@@ -40,7 +40,7 @@ String falatorio="Ouvi dizer que \"Sintaxe Java é mais fácil que sintaxe de Pyth
 String apresentacao="Muito prazer! Meu nome é " + nome;
 String minhasTarefas="Escrever um System.out.println pra cada uma dessas strings";
 String oQueVouFazer="Juntar tudo numa string só e mandar printar";
-String aiesta=nome + empresa + mensagem + poema;
+String aiesta=nome + "\n" + empresa + "\n" + mensagem + "\n" + poema + "\n" + conselho + "\n" + falatorio + "\n" + apresentacao + "\n" + minhasTarefas + "\n" + oQueVouFazer;
 System.out.println(aiesta);
     }
 }
