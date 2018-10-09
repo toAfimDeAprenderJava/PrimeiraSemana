@@ -30,7 +30,7 @@ System.out.println(floatDesc);
 System.out.println(doubleDesc);
 System.out.println(charDesc);
 
-System.out.println("--------");
+System.out.println("-------- Strings --------");
 String nome="João Lucio";
 String empresa="Cognizant";
 String mensagem="O rato roeu a roupa do rei de roma";
@@ -42,7 +42,7 @@ String minhasTarefas="Escrever um System.out.println pra cada uma dessas strings
 String oQueVouFazer="Juntar tudo numa string só e mandar printar";
 String aiesta=nome + "\n" + empresa + "\n" + mensagem + "\n" + poema + "\n" + conselho + "\n" + falatorio + "\n" + apresentacao + "\n" + minhasTarefas + "\n" + oQueVouFazer;
 System.out.println(aiesta);
-System.out.println("--------");
+System.out.println("--------Int--------");
 int ladosDeUmaBola=2;
 int quantosCarasExistem=1;
 int vezesSalarioCaiMinhaConta=150;
