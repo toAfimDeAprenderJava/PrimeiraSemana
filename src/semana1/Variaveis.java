@@ -42,5 +42,16 @@ String minhasTarefas="Escrever um System.out.println pra cada uma dessas strings
 String oQueVouFazer="Juntar tudo numa string só e mandar printar";
 String aiesta=nome + "\n" + empresa + "\n" + mensagem + "\n" + poema + "\n" + conselho + "\n" + falatorio + "\n" + apresentacao + "\n" + minhasTarefas + "\n" + oQueVouFazer;
 System.out.println(aiesta);
+System.out.println("--------");
+int ladosDeUmaBola=2;
+int quantosCarasExistem=1;
+int vezesSalarioCaiMinhaConta=150;
+int quantasVezesSeraQuandoAprenderJava=vezesSalarioCaiMinhaConta*3;
+int meuVoto=0;
+int quantosIntsFaltamPraEuDefinir=4;
+int iPhoneAtual=10;
+int proximoIPhone=iPhoneAtual++;
+int eAgora=quantosIntsFaltamPraEuDefinir--;
+int intNaoProcessaNumerosMaioresQue=2147483647;
     }
 }
