@@ -25,9 +25,9 @@ String doubleDesc="Double: Um float aprimorado. Além de receber tanto valores in
 String charDesc="Char: Recebe um único caractere. Sua definição é feita com aspas simples, assim: \n char opicao=\'s';";
 
 System.out.println(stringDesc);
-System.out.println(intDesc);;
-System.out.println(floatDesc);;
-System.out.println(doubleDesc);;
-System.out.println(charDesc);;
+System.out.println(intDesc);
+System.out.println(floatDesc);
+System.out.println(doubleDesc);
+System.out.println(charDesc);
     }
 }
