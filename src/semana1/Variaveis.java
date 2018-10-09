@@ -22,7 +22,7 @@ String stringDesc="String: Armazena uma cadeia de caracteres. Sua definição é St
 String intDesc="Int: Armazena um valor inteiro. Não são usadas aspas em sua definição, assim: \n int dedosDaMinhaMao=5;";
 String floatDesc="Float: Armazena números decimais. Quando float recebe um valor não flutuante, irá adequar o tipo. Por isso a melhor forma de se definir um float é acrescentar um f após o número, assim: \n float rotacoesPorMinuto=33.5f; ou float horasTrabalhadas=8f;";
 String doubleDesc="Double: Um float aprimorado. Além de receber tanto valores inteiros como decimais, possui dupla precisão. Útil para evitar exceptions quando o valor esperado é um int mas um decimal é retornado. \n double minhasCasasDeAluguel=20; double minhaRendaMensal=30803.21;";
-String charDesc="Char: Recebe um único caractere. Sua definição é feita com aspas simples, assim: \n char opcao=\'s';";
+String charDesc="Char: Recebe um único caractere. Sua definição é feita com aspas simples, assim: \n char opicao=\'s';";
 
 System.out.println(stringDesc);
 System.out.println(intDesc);;
