@@ -6,7 +6,7 @@ package semana1;
  *  Armazene a descrição da variavel em uma variavel e imprima as variaveis no console do seguinte modo:
  *
  *
- *  nomeDaVariavel: + variavelExplicaão + tipoDaVariavel 
+ *  nomeDaVariavel: + variavelExplicação + tipoDaVariavel 
  *
  *
  *  Dica: Procure ser simples, Variaveis de ambiente não se aplicam nessa semana.
