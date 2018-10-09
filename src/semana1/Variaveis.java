@@ -46,22 +46,22 @@ System.out.println("--------");
 int ladosDeUmaBola=2;
 int quantosCarasExistem=1;
 int vezesSalarioCaiMinhaConta=150;
-int quantasSeraoQuandoAprenderJava=vezesSalarioCaiMinhaConta*3;
+int quantasSeraoQuandoAprenderJava=vezesSalarioCaiMinhaConta*2;
 int meuVoto=0;
 int quantosIntsFaltamPraEuDefinir=4;
 int iPhoneAtual=10;
-int proximoIPhone=iPhoneAtual++;
-int eAgora=quantosIntsFaltamPraEuDefinir--;
+int proximoIPhone=iPhoneAtual+1;
+int eAgora=--quantosIntsFaltamPraEuDefinir;
 int intNaoProcessaNumerosMaioresQue=2147483647;
 
 System.out.println("Por que a bola tem " + ladosDeUmaBola + " lados?");
-System.out.println("Deve ser porque só existe " + quantosCarasExistem + ".");
-System.out.println("Que não sou eu, mas por mês, o salário cai " + vezesSalarioCaiMinhaConta + "na minha conta.");
+System.out.println("Deve ser porque só existe " + quantosCarasExistem + " cara.");
+System.out.println("Que não sou eu, mas por mês, o salário cai " + vezesSalarioCaiMinhaConta + " vezes na minha conta.");
 System.out.println("Não é pouco, mas quando aprender Java, cairá " + quantasSeraoQuandoAprenderJava + " vezes.");
 System.out.println("No segundo turno entre 0 e 00, permanecerei com o " + meuVoto + ".");
 System.out.println("Espero que essa quantidade toda de ints pra declarar realmente sirvam pra adquirir fluência, ainda faltam " + quantosIntsFaltamPraEuDefinir + ".");
 System.out.println("Tenho um Iphone " + iPhoneAtual + ", mas já não me serve mais. Espero que o " + proximoIPhone + " não demore.");
-System.out.println("E agora? Ainda faltam " + eAgora + "ints...");;
+System.out.println("E agora? Ainda faltam " + eAgora + "ints...");
 System.out.println("Claro que não falta tudo isso. Vamos acabar logo, até o int no Java tem limite e é " + intNaoProcessaNumerosMaioresQue + ".");
     }
 }
