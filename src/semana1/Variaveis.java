@@ -51,7 +51,7 @@ int meuVoto=0;
 int quantosIntsFaltamPraEuDefinir=4;
 int iPhoneAtual=10;
 int proximoIPhone=iPhoneAtual+1;
-int eAgora=--quantosIntsFaltamPraEuDefinir;
+int eAgora=quantosIntsFaltamPraEuDefinir-1;
 int intNaoProcessaNumerosMaioresQue=2147483647;
 
 System.out.println("Por que a bola tem " + ladosDeUmaBola + " lados?");
