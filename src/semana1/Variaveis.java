@@ -70,6 +70,7 @@ float rotacaoAntiga=78;
 float tamanhoDoDisquete=3.5f;
 float horasDoProjeto=32.5f;
 float media=horasDoProjeto/horasTrabalhadas;
-float limite=340282347f; 
+float limite=340282347f;
+String floatPrint=horasTrabalhadas + "\n" + rotacoesPorMinuto + "\n" + rotacaoAntiga + "\n" + tamanhoDoDisquete + "\n" + horasDoProjeto + "\n" + media + "\n" + "\n" + limite);
     }
 }
