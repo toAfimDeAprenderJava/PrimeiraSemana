@@ -81,7 +81,10 @@ double tiposPrimitivos=8;
 double populacaoBrasileira=2085000;
 double tamanhoDoBrasil=8516000;
 double espacoParaCadaBrasileiro=tamanhoDoBrasil/populacaoBrasileira;
-System.out.println(despesasComEncontros);
-System.out.println(espacoParaCadaBrasileiro);
+double doubleELegalAteChegarEm=494065645841246544e-324;
+double oQueAconteceQuandoOLimiteEUltrapassado=doubleELegalAteChegarEm+1; //isso foi diferente do que eu mesmo esperava
+double quandoVoceRealmentePassaDoLimite=doubleELegalAteChegarEm*2; //E esse foi completamente diferente
+String doublePrint=meuSalario + "\n" + garotasQueSaiEmSetembro + "\n" + despesasComEncontros + "\n" + tiposPrimitivos + "\n" + populacaoBrasileira + "\n" + tamanhoDoBrasil + "\n" + espacoParaCadaBrasileiro + "\n" + doubleELegalAteChegarEm + "\n" + oQueAconteceQuandoOLimiteEUltrapassado + "\n" + quandoVoceRealmentePassaDoLimite;
+System.out.println(doublePrint);
     }
 }
