@@ -19,10 +19,10 @@ public class Variaveis {
 
     public static void main(String[] args) {
 String stringDesc="String: Armazena uma cadeia de caracteres. Sua definição é String nomeDaString=\"Aqui tem string\";.";
-String intDesc="Int: Armazena um valor inteiro. Não são usadas aspas em sua definição, assim: \n int dedosDaMinhaMao=5;";
-String floatDesc="Float: Armazena números decimais. Quando float recebe um valor não flutuante, irá adequar o tipo. Por isso a melhor forma de se definir um float é acrescentar um f após o número, assim: \n float rotacoesPorMinuto=33.5f; ou float horasTrabalhadas=8f;";
-String doubleDesc="Double: Um float aprimorado. Além de receber tanto valores inteiros como decimais, possui dupla precisão. Útil para evitar exceptions quando o valor esperado é um int mas um decimal é retornado. \n double minhasCasasDeAluguel=20; double minhaRendaMensal=30803.21;";
-String charDesc="Char: Recebe um único caractere. Sua definição é feita com aspas simples, assim: \n char opicao=\'s';";
+String intDesc="Int: Variável do tipo primitivo, armazena um valor inteiro. Não são usadas aspas em sua definição, assim: \n int dedosDaMinhaMao=5;";
+String floatDesc="Float: Variável do tipo primitivo, armazena números decimais, possui precisão simples. Quando float recebe um valor não flutuante, irá adequar o tipo. Por isso a melhor forma de se definir um float é acrescentar um f após o número.";
+String doubleDesc="Double: Também uma variável de tipo primitivo, é um float aprimorado. Além de receber tanto valores inteiros como decimais, possui dupla precisão. Útil para evitar exceptions quando o valor esperado é um int mas um decimal é retornado.";
+String charDesc="Char: Recebe um único caractere. Quando não recebe um número, sua definição é feita com aspas simples";
 
 System.out.println(stringDesc);
 System.out.println(intDesc);
@@ -63,5 +63,13 @@ System.out.println("Espero que essa quantidade toda de ints pra declarar realmen
 System.out.println("Tenho um Iphone " + iPhoneAtual + ", mas já não me serve mais. Espero que o " + proximoIPhone + " não demore.");
 System.out.println("E agora? Ainda faltam " + eAgora + "ints...");
 System.out.println("Claro que não falta tudo isso. Vamos acabar logo, até o int no Java tem limite e é " + intNaoProcessaNumerosMaioresQue + ".");
+System.out.println("--------Float--------");;
+float horasTrabalhadas=8f;
+float rotacoesPorMinuto=33.5f;
+float rotacaoAntiga=78;
+float tamanhoDoDisquete=3.5f;
+float horasDoProjeto=32.5f;
+float media=horasDoProjeto/horasTrabalhadas;
+float limite=340282347f; 
     }
 }
