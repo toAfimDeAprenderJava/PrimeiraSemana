@@ -74,9 +74,14 @@ float limite=340282347f;
 String floatPrint=horasTrabalhadas + "\n" + rotacoesPorMinuto + "\n" + rotacaoAntiga + "\n" + tamanhoDoDisquete + "\n" + horasDoProjeto + "\n" + media + "\n" + limite;
 System.out.println(floatPrint);
 System.out.println("--------Double--------");
-double meuSalario=8000;
+double meuSalario=8500;
 double garotasQueSaiEmSetembro=30;
+double despesasComEncontros=meuSalario/garotasQueSaiEmSetembro;
 double tiposPrimitivos=8;
-double populacaoBrasileira=208.500000;
+double populacaoBrasileira=2085000;
+double tamanhoDoBrasil=8516000;
+double espacoParaCadaBrasileiro=tamanhoDoBrasil/populacaoBrasileira;
+System.out.println(despesasComEncontros);
+System.out.println(espacoParaCadaBrasileiro);
     }
 }
