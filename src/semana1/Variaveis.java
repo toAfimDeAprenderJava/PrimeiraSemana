@@ -18,11 +18,11 @@ public class Variaveis {
 
 
     public static void main(String[] args) {
-String stringDesc="String: Armazena uma cadeia de caracteres. Sua definição é String nomeDaString=\"Aqui tem string\";.";
+    	String stringDesc="String: Armazena uma cadeia de caracteres. Sua definição é String nomeDaString=\"Aqui tem string\";.";
 String intDesc="Int: Variável do tipo primitivo, armazena um valor inteiro. Não são usadas aspas em sua definição, assim: \n int dedosDaMinhaMao=5;";
 String floatDesc="Float: Variável do tipo primitivo, armazena números decimais, possui precisão simples. É necessário adicionar um \"f\" ao final do valor definido sempre que este for um decimal, caso contrário ocorrerá um erro de precisão.";
-String doubleDesc="Double: Também uma variável de tipo primitivo, é um float aprimorado. Além de receber tanto valores inteiros como decimais, possui dupla precisão. Útil para evitar exceptions quando o valor esperado é um int mas um decimal é retornado.";
-String charDesc="Char: Recebe um único caractere. Quando não recebe um número, sua definição é feita com aspas simples";
+String doubleDesc="Double: Também uma variável de tipo primitivo, com dupla precisão contra o float.";
+String charDesc="Char: Recebe um único caractere. Quando não recebe um número, sua definição é feita com aspas simples, inclusive nos caracteres de escape.";
 
 System.out.println(stringDesc);
 System.out.println(intDesc);
@@ -63,7 +63,7 @@ System.out.println("Espero que essa quantidade toda de ints pra declarar realmen
 System.out.println("Tenho um Iphone " + iPhoneAtual + ", mas já não me serve mais. Espero que o " + proximoIPhone + " não demore.");
 System.out.println("E agora? Ainda faltam " + eAgora + "ints...");
 System.out.println("Claro que não falta tudo isso. Vamos acabar logo, até o int no Java tem limite e é " + intNaoProcessaNumerosMaioresQue + ".");
-System.out.println("--------Float--------");;
+System.out.println("--------Float--------");
 float horasTrabalhadas=8f;
 float rotacoesPorMinuto=33.5f;
 float rotacaoAntiga=78;
@@ -86,5 +86,13 @@ double oQueAconteceQuandoOLimiteEUltrapassado=doubleELegalAteChegarEm+1; //isso 
 double quandoVoceRealmentePassaDoLimite=doubleELegalAteChegarEm*2; //E esse foi completamente diferente
 String doublePrint=meuSalario + "\n" + garotasQueSaiEmSetembro + "\n" + despesasComEncontros + "\n" + tiposPrimitivos + "\n" + populacaoBrasileira + "\n" + tamanhoDoBrasil + "\n" + espacoParaCadaBrasileiro + "\n" + doubleELegalAteChegarEm + "\n" + oQueAconteceQuandoOLimiteEUltrapassado + "\n" + quandoVoceRealmentePassaDoLimite;
 System.out.println(doublePrint);
-    }
+System.out.println("--------Char--------");
+char sOuN='s';
+char index=6;
+char pulaLinha='\n';
+char marcaRegistrada='\u2122';
+String charPrint=sOuN + "\n" + index + "\n" + pulaLinha + "\n" + marcaRegistrada;
+System.out.println(charPrint);
+System.out.println("--------");
+}
 }
