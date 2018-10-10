@@ -73,5 +73,10 @@ float media=horasDoProjeto/horasTrabalhadas;
 float limite=340282347f;
 String floatPrint=horasTrabalhadas + "\n" + rotacoesPorMinuto + "\n" + rotacaoAntiga + "\n" + tamanhoDoDisquete + "\n" + horasDoProjeto + "\n" + media + "\n" + limite;
 System.out.println(floatPrint);
+System.out.println("--------Double--------");
+double meuSalario=8000;
+double garotasQueSaiEmSetembro=30;
+double tiposPrimitivos=8;
+
     }
 }
