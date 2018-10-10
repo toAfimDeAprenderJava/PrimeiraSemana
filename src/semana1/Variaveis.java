@@ -20,7 +20,7 @@ public class Variaveis {
     public static void main(String[] args) {
 String stringDesc="String: Armazena uma cadeia de caracteres. Sua definição é String nomeDaString=\"Aqui tem string\";.";
 String intDesc="Int: Variável do tipo primitivo, armazena um valor inteiro. Não são usadas aspas em sua definição, assim: \n int dedosDaMinhaMao=5;";
-String floatDesc="Float: Variável do tipo primitivo, armazena números decimais, possui precisão simples. Quando float recebe um valor não flutuante, irá adequar o tipo. Por isso a melhor forma de se definir um float é acrescentar um f após o número.";
+String floatDesc="Float: Variável do tipo primitivo, armazena números decimais, possui precisão simples. É necessário adicionar um \"f\" ao final do valor definido sempre que este for um decimal, caso contrário ocorrerá um erro de precisão.";
 String doubleDesc="Double: Também uma variável de tipo primitivo, é um float aprimorado. Além de receber tanto valores inteiros como decimais, possui dupla precisão. Útil para evitar exceptions quando o valor esperado é um int mas um decimal é retornado.";
 String charDesc="Char: Recebe um único caractere. Quando não recebe um número, sua definição é feita com aspas simples";
 
