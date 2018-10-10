@@ -77,6 +77,6 @@ System.out.println("--------Double--------");
 double meuSalario=8000;
 double garotasQueSaiEmSetembro=30;
 double tiposPrimitivos=8;
-
+double populacaoBrasileira=208.500000;
     }
 }
