@@ -1,11 +1,11 @@
 # PrimeiraSemana
 
 ## Conteudo
--Estrutura de um programa
--Java Tipos de Variáveis
--Tipagem de Variavel
--Operadores lógicos
--Operadores matemáticos
--Operadores relacionais
--Identação
--Import de classes
+-Estrutura de um programa <br>
+-Java Tipos de Variáveis <br>
+-Tipagem de Variavel <br>
+-Operadores lógicos <br>
+-Operadores matemáticos <br>
+-Operadores relacionais <br>
+-Identação <br>
+-Import de classes 
